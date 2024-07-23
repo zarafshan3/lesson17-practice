@@ -1,0 +1,12 @@
+body{
+    /* background-image: url("https://www.godisageek.com/wp-content/uploads/Bright-Memory-review.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: #243137;
+}

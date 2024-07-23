@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+    <h1>My Favorite Vehicles</h1>
+
+    <select name="" id="change-car-name" onchange="chCarImg()">
+        <option value="">CHANGE</option>
+        <option value="bmw.png">BMW</option>
+        <option value="porsche.png">Porsche</option>
+        <option value="ferrari.png">Ferrari</option>
+        <option value="royalenfield.png">Royal enfield</option>
+        <option value="kawasaki.png">kawasaki ninja</option>
+    </select>
+
+    <br>
+    <br>
+
+    <img src="images/images.jpg" id="cars" alt="" width="350px" height="250px">
+
+    <br>
+    <br>
+
+    <div id="demo1" onmouseover="start()" onmouseout="end()"></div>
+    
+</body>
+</html>
+
+<script src="JS/index.js"></script>
